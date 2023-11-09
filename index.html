@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> 
+</head>
+  <body>
+    <div class="site-wrapper">
+      <div class="content-wrapper">
+        <img
+          class="computer-svg"
+          src="svg/computer-illustration.svg"
+          alt="vector illustration of an old
+          90s computer with a speaker bubble on the screen."
+          width="875 px"
+          height="786 px"
+        />
+
+        <div class="bubble">
+        <p id="instructions-message">Guess a number between 1 to 100:</p>
+        <div class="bubble-item">
+        <div id="count">Guesses left: 5</div>
+        <div id="previous-guesses">Previous guesses:</div>
+        </div></div>
+        
+        <div id="face"> •◡•</div>
+
+        <div class="form-container">
+          <div class="input">
+          <form id="form">
+            <input
+              type="number"
+              id="players-guess-number"
+              placeholder="1 - 100"
+              min="1"
+              max="100"
+              onfocus="this.value=''"
+            /></div>
+
+            <div class="button">
+            <button type="submit" id="button">SUBMIT</button>
+          </form>
+          </div>
+        </div>
+
+        <button class="playAgainButton" url="index.html">Play again!</button>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
