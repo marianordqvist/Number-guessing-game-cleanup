@@ -59,6 +59,23 @@ button {
   display: none;
 }
 
+.computer-svg {
+  display: none;
+}
+
+.mobile-svg {
+  display: block;
+}
+
+@media (min-width: 44rem) {
+  .mobile-svg {
+    display: none;
+  }
+  .computer-svg {
+    display: block;
+  }
+}
+
 input {
   width: 100%;
   height: 3rem;
