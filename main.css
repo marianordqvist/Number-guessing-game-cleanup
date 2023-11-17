@@ -41,17 +41,18 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  top: 25%;
-  right: 27%;
-  width: 14rem;
-  height: 17rem;
+  top: 27%;
+  right: 20%;
+  width: 13rem;
+  height: 16rem;
+  font-size: 1.3rem;
 }
 
 .form-container {
   position: absolute;
-  top: 66%;
-  right: 22%;
-  width: 17rem;
+  top: 64%;
+  right: 20%;
+  width: 15rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -78,50 +79,20 @@ button {
 }
 
 #face {
-  font-size: 4rem;
+  font-size: 3.5rem;
   position: absolute;
   top: 40%;
-  left: 38%;
+  left: 35%;
   color: rgb(68, 60, 43);
 }
 
 input {
   width: 100%;
-  height: 3rem;
+  height: 2.7rem;
   border: none;
   border-radius: 5px;
   padding: 0.5rem;
 }
-
-@media (min-width: 42rem) {
-  .mobile-svg {
-    display: none;
-  }
-  .computer-svg {
-    display: block;
-  }
-  .form-container {
-    top: 50%;
-    right: 24%;
-    width: 35rem;
-    gap: 0.7rem;
-  }
-  #button {
-    width: 15rem;
-    height: 3rem;
-  }
-  #face {
-    top: 30%;
-    left: 14%;
-  }
-  .bubble {
-    top: 22%;
-    right: 27%;
-    width: 20rem;
-    height: 11rem;
-  }
-}
-
 .playAgainButton {
   width: 15rem;
   height: 3rem;
@@ -140,4 +111,159 @@ input {
 
 .face-animated {
   animation: tada 1s;
+}
+
+@media (min-width: 404px) {
+  .bubble {
+    right: 24%;
+
+    font-size: 1.4rem;
+    top: 24%;
+    height: 18rem;
+  }
+  .form-container {
+    top: 66%;
+    right: 24%;
+  }
+  #face {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 442px) {
+  .bubble {
+    right: 24%;
+  }
+  .form-container {
+    right: 23%;
+    top: 66%;
+  }
+  #face {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 470px) {
+  .bubble {
+    right: 28%;
+  }
+  .form-container {
+    right: 24%;
+    top: 67%;
+    width: 16rem;
+  }
+}
+
+@media (min-width: 524px) {
+  .bubble {
+    right: 30%;
+  }
+  .form-container {
+    right: 27%;
+  }
+  #face {
+    left: 39%;
+  }
+}
+
+@media (min-width: 615px) {
+  .bubble {
+    right: 33%;
+  }
+  .form-container {
+    right: 29%;
+  }
+}
+
+@media (min-width: 672px) {
+  .mobile-svg {
+    display: none;
+  }
+  .computer-svg {
+    display: block;
+  }
+  .form-container {
+    top: 50%;
+    right: 24%;
+    width: 27rem;
+    gap: 0.5rem;
+  }
+  #button {
+    width: 15rem;
+    height: 2.2rem;
+  }
+  #face {
+    top: 30%;
+    left: 11%;
+  }
+  .bubble {
+    top: 28%;
+    right: 27%;
+    width: 15.5rem;
+    height: 9rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 730px) {
+  .bubble {
+    top: 26%;
+    right: 27%;
+    width: 17rem;
+    height: 9.8rem;
+    font-size: 1.5rem;
+  }
+
+  #face {
+    left: 12%;
+  }
+
+  .form-container {
+    width: 30rem;
+  }
+  #button {
+    width: 15rem;
+    height: 2.5rem;
+  }
+}
+
+@media (min-width: 808px) {
+  .bubble {
+    top: 24%;
+    right: 26%;
+    width: 19.5rem;
+    height: 11rem;
+    font-size: 1.6rem;
+  }
+
+  .form-container {
+    width: 33rem;
+    gap: 0.7rem;
+  }
+  #button {
+    width: 15rem;
+    height: 3rem;
+  }
+}
+
+@media (min-width: 867px) {
+  .bubble {
+    top: 23%;
+    right: 27%;
+    width: 20rem;
+    height: 11rem;
+    font-size: 1.7rem;
+  }
+  #face {
+    left: 13%;
+  }
+  .form-container {
+    width: 35rem;
+    gap: 0.7rem;
+  }
+  #button {
+    width: 15rem;
+    height: 3.2rem;
+    font-size: 1.7rem;
+  }
 }
