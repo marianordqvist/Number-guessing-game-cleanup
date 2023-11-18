@@ -41,7 +41,7 @@ function checkGuess() {
   countEl.innerHTML = `Guesses left: ${count}`;
 
   if (count <= 0) {
-    instructionsMessage.innerHTML = `You lost... And I win!! The number I was thinking of was ${computersNumber} `;
+    instructionsMessage.innerHTML = `You lost... And I win!! The number I was thinking of was ${computersNumber}.`;
     faceEl.innerHTML = "¬‿¬";
     faceEl.classList.toggle("face-animated");
     formContainerEl.classList.toggle("form-container-hidden");

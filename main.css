@@ -100,8 +100,8 @@ input {
   border-radius: 5px;
   background-color: rgb(234, 196, 45);
   position: absolute;
-  top: 58%;
-  right: 43%;
+  top: 65%;
+  right: 20%;
   display: none;
 }
 
@@ -128,6 +128,10 @@ input {
   #face {
     font-size: 4rem;
   }
+  .playAgainButton {
+    top: 67%;
+    right: 22%;
+  }
 }
 
 @media (min-width: 442px) {
@@ -140,6 +144,10 @@ input {
   }
   #face {
     font-size: 4rem;
+  }
+  .playAgainButton {
+    top: 69%;
+    right: 26%;
   }
 }
 
@@ -164,6 +172,10 @@ input {
   #face {
     left: 39%;
   }
+  .playAgainButton {
+    top: 69%;
+    right: 29%;
+  }
 }
 
 @media (min-width: 615px) {
@@ -172,6 +184,10 @@ input {
   }
   .form-container {
     right: 29%;
+  }
+  .playAgainButton {
+    top: 69%;
+    right: 32%;
   }
 }
 
@@ -203,6 +219,10 @@ input {
     height: 9rem;
     font-size: 1.3rem;
   }
+  .playAgainButton {
+    top: 52%;
+    right: 37%;
+  }
 }
 
 @media (min-width: 730px) {
@@ -231,7 +251,7 @@ input {
   .bubble {
     top: 24%;
     right: 26%;
-    width: 19.5rem;
+    width: 19rem;
     height: 11rem;
     font-size: 1.6rem;
   }
@@ -244,11 +264,15 @@ input {
     width: 15rem;
     height: 3rem;
   }
+  .playAgainButton {
+    top: 54%;
+    right: 37%;
+  }
 }
 
 @media (min-width: 867px) {
   .bubble {
-    top: 23%;
+    top: 22%;
     right: 27%;
     width: 20rem;
     height: 11rem;
@@ -265,5 +289,11 @@ input {
     width: 15rem;
     height: 3.2rem;
     font-size: 1.7rem;
+  }
+  .playAgainButton {
+    top: 53%;
+    right: 39%;
+    width: 17rem;
+    height: 3.5rem;
   }
 }
